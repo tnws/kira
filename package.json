@@ -1,0 +1,35 @@
+{
+  "name": "kira",
+  "version": "2.0.0",
+  "description": "a helpful slack bot",
+  "main": "index.js",
+  "dependencies": {
+    "@slack/client": "^2.0.4",
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "forecast": "^0.2.1",
+    "gift": "^0.6.1",
+    "lodash": "^4.5.1",
+    "moment": "^2.10.6",
+    "node-geocoder": "^3.0.0",
+    "node-wit": "^2.0.0",
+    "redis": "^0.12.1",
+    "request": "^2.61.0",
+    "underscore": "^1.8.3",
+    "wikijs": "^0.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tnws/kira.git"
+  },
+  "author": "trevin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tnws/kira/issues"
+  },
+  "homepage": "https://github.com/tnws/kira"
+}
